@@ -6,11 +6,11 @@ import { PostsComponent } from './posts/posts.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'reports',
     component: UsersComponent
   },
   {
-    path: 'details/:id',
+    path: 'users',
     component: DetailsComponent
   },
   {

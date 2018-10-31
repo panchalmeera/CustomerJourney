@@ -1,17 +1,17 @@
 <nav>
 	<ul>
 		<li>
-			<a routerLink="">
+			<a routerLink="" [class.activated]="currentUrl == '/reports'"> 
 				<i class="material-icons">folder</i>
 			</a>
 		</li>
 		<li>
-			<a routerLink="">
+			<a routerLink="" [class.activated]="currentUrl == '/users'">
 				<i class="material-icons">attach_file</i>
 			</a>
 		</li>
 		<li>
-			<a routerLink="">
+			<a routerLink="" [class.activated]="currentUrl == '/posts'">
 				<i class="material-icons">calendar_today</i>
 			</a>
 		</li>

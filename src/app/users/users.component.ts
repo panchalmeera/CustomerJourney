@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TableComponent} from './table/table.component';
+import { TableService } from './table/table.service';
 
 @Component({
   selector: 'app-users',
