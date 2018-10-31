@@ -1,0 +1,22 @@
+<!-- <table>
+    <thead>
+      <tr>
+        <th>Data Link</th>
+        <th>Created By</th>
+        <th>Report Name</th>
+        <th>Path</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let character of characters">
+        <td>{{ character.datalink }}</td>
+        <td>{{ character.createdby }}</td>
+        <td>{{ character.reportname }}</td>
+        <td>{{ character.path }}</td>
+      </tr>
+    </tbody>
+</table> -->
+<ng2-smart-table 
+    [settings]="settings" 
+    [source]="characters">
+</ng2-smart-table>

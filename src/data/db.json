@@ -1,0 +1,34 @@
+{
+    "characters": [
+    {
+        "datalink": "rbb-bcuk",
+        "createdby": "Manoj K",
+        "reportname": "rbb-bcuk",
+        "reporttype": "traffic",
+        "path": ""
+    },{
+        "datalink": "dev-complaint",
+        "createdby": "Abhishek K",
+        "reportname": "dev-complaint",
+        "reporttype": "traffic",
+        "path": ""
+    },{
+        "datalink": "dev-onlinebanking",
+        "createdby": "Devaroop K",
+        "reportname": "dev-onlinebanking",
+        "reporttype": "traffic",
+        "path": ""
+    },{
+        "datalink": "dev-detailsweb3",
+        "createdby": "Meera P",
+        "reportname": "dev-detailsweb3",
+        "reporttype": "traffic",
+        "path": ""
+    },{
+        "datalink": "dev-journeytocomplete",
+        "createdby": "Trishali K",
+        "reportname": "dev-journeytocomplete",
+        "reporttype" :"traffic",
+        "path": ""
+    }]
+}
