@@ -25,11 +25,10 @@ export class DownloadComponent implements OnInit {
 		    showLabels: true, 
 		    showTitle: true,
 		    useBom: true,
-		    noDownload: true,
-		    headers: ["FirstName", "LastName", "UserID"]
+		    headers: ["Data Link", "Created By", "Report Name", "Report Type", "Path"]
 		};
 
-		new Angular5Csv(data, 'MyFileName');
+		new Angular5Csv(data, 'GridData', options);
 
   }
 
