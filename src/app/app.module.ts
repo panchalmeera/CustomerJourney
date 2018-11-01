@@ -11,6 +11,7 @@ import { TableComponent } from './table/table.component';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { HttpClientModule } from '@angular/common/http';
 import { TableService } from './table/table.service';
+import { DownloadComponent } from './download/download.component';
 
 
 
@@ -21,7 +22,8 @@ import { TableService } from './table/table.service';
     PostsComponent,
     DetailsComponent,
     UsersComponent,
-    TableComponent
+    TableComponent,
+    DownloadComponent
   ],
   imports: [
     BrowserModule,
