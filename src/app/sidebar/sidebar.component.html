@@ -1,17 +1,17 @@
 <nav>
 	<ul>
 		<li>
-			<a routerLink="" [class.activated]="currentUrl == '/'"> 
+			<a routerLink="/" [class.activated]="gridflag" (click)="setGridSelection()"> 
 				<i class="material-icons">folder</i>
 			</a>
 		</li>
 		<li>
-			<a routerLink="" [class.activated]="currentUrl == '/users'">
+			<a routerLink="/posts" [class.activated]="postflag" (click)="setPostSelection()">
 				<i class="material-icons">attach_file</i>
 			</a>
 		</li>
 		<li>
-			<a routerLink="" [class.activated]="currentUrl == '/posts'">
+			<a routerLink="/users" [class.activated]="usersflag" (click)="setUsersSelection()">
 				<i class="material-icons">calendar_today</i>
 			</a>
 		</li>
