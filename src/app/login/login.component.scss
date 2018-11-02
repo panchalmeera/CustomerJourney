@@ -1,0 +1,65 @@
+.loginContainer {
+	background-color: white;
+	margin: 25px auto;
+	width:80%;
+	border-radius: 3px;
+
+	.registerContainer {
+		border-bottom: 2px solid rgb(173,173,173);
+		padding: 25px;
+		background-color: rgb(209,209,209);
+
+		.signinBtn {
+			color:white;
+			background-color: rgb(68,119,184);
+			border-radius: 2px;
+			border:0;
+			box-shadow:none;
+			padding:5px;
+		}
+
+		.registerBtn {
+			color: rgb(68,119,184);
+			float:right;
+			border: 0;
+			background-color: rgb(209,209,209);
+			padding:5px;
+		}
+	}
+	.login {
+		padding: 25px;
+		.email {
+			margin-bottom:10px;
+			label {
+				min-width:20%;
+				display:inline-block;
+			}
+			input {
+				width: 50%;
+			}
+		}
+		.password {
+			margin-bottom:10px;
+			label {
+				min-width:20%;
+				display:inline-block;
+			}
+			input {
+				width: 50%;
+			}
+		}
+		.forgotPwd {
+			color: rgb(68,119,184);
+			margin-top: 20px;
+		}
+		.loginBtn {
+			padding: 5px;
+			margin-top: 20px;
+			color:white;
+			background-color: rgb(68,119,184);
+			border-radius: 2px;
+			border:0;
+			box-shadow:none;
+		}
+	}
+}
