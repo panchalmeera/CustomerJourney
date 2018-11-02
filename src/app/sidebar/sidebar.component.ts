@@ -10,7 +10,8 @@ import { Router, NavigationEnd } from '@angular/router';
 export class SidebarComponent implements OnInit {
 
   currentUrl: string;
-  gridflag = true;
+  loginflag = true;
+  gridflag = false;
   postflag = false;
   usersflag = false;
 
@@ -24,18 +25,28 @@ export class SidebarComponent implements OnInit {
       this.gridflag = true;
 	  this.postflag = false;
 	  this.usersflag = false;
+	  this.loginflag = false;
   }
 
   setPostSelection() {
       this.gridflag = false;
 	  this.postflag = true;
 	  this.usersflag = false;
+	  this.loginflag = false;
   }
 
   setUsersSelection() {
       this.gridflag = false;
 	  this.postflag = false;
 	  this.usersflag = true;
+	  this.loginflag = false;
+  }
+
+  setLoginSelection() {
+      this.gridflag = false;
+	  this.postflag = false;
+	  this.usersflag = false;
+	  this.loginflag = true;
   }
 
 }

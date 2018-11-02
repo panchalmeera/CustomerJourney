@@ -12,6 +12,7 @@ import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { HttpClientModule } from '@angular/common/http';
 import { TableService } from './table/table.service';
 import { DownloadComponent } from './download/download.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -23,7 +24,8 @@ import { DownloadComponent } from './download/download.component';
     DetailsComponent,
     UsersComponent,
     TableComponent,
-    DownloadComponent
+    DownloadComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

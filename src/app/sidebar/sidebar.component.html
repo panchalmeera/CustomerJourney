@@ -1,7 +1,12 @@
 <nav>
 	<ul>
 		<li>
-			<a routerLink="/" [class.activated]="gridflag" (click)="setGridSelection()"> 
+	      <a routerLink="/" [class.activated]="loginflag" (click)="setLoginSelection()">
+	        <i class="material-icons">supervised_user_circle</i>
+	      </a>
+	    </li>
+		<li>
+			<a routerLink="/dashboard" [class.activated]="gridflag" (click)="setGridSelection()"> 
 				<i class="material-icons">folder</i>
 			</a>
 		</li>
